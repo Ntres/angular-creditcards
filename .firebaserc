@@ -1,0 +1,15 @@
+{
+  "projects": {
+    "ntrescreditcards": "ntrescreditcard",
+    "default": "ntrescreditcard"
+  },
+  "targets": {
+    "ntrescreditcard": {
+      "hosting": {
+        "creditCards": [
+          "ntrescreditcard"
+        ]
+      }
+    }
+  }
+}

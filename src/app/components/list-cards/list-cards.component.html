@@ -1,0 +1,18 @@
+<div class="card">
+  <div class="card-body">
+    <h5 class="title">Listar Tarjetas</h5>
+    <table class="table">
+      <tbody>
+        <tr *ngFor="let card of listCards">
+          <td>{{card.titular}}</td>
+          <td>{{card.cardNumber}}</td>
+          <td>{{card.expirationDate}}</td>
+          <td>
+            <i (click)="editCard(card)" class="far fa-edit text-info"></i>
+            <i (click)="deleteCard(card.id)" class="far fa-trash-alt text-danger"></i>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</div>
